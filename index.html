@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+    <script src="https://blockcerts.learningmachine.com/blockcerts-verifier/custom-elements-es5-adapter.js"></script>
+    <script src="https://blockcerts.learningmachine.com/blockcerts-verifier/webcomponents-loader.js"></script>
+    <script src="https://blockcerts.learningmachine.com/blockcerts-verifier/ie11.js"></script>
+    <script>window.certificateTrackerOrigin = 'web-viewer';</script>
+    <script src="https://blockcerts.learningmachine.com/bv-events.js"></script>
+
+    <style type="text/css">
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: #f3f4f5;
+      }
+      .container {
+        position: relative;
+        margin: 0 auto;
+        padding: auto;
+        max-width: 950px;
+        width: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <blockcerts-verifier display-mode="fullscreen"
+                           enable-auto-verify
+                           show-metadata
+                           allow-download
+                           allow-social-share
+                           src="https://raw.githubusercontent.com/migelankodra/certificates/master/c1420c1a-54a9-4a45-8945-93b9ab77e887.json"></blockcerts-verifier>
+    </div>
+  </body>
+</html>
